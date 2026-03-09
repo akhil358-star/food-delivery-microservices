@@ -188,10 +188,10 @@ Database
 # Future Enhancements
 
 • Docker containerization  
-• Kubernetes deployment  
-• Kafka event-driven communication  
-• Distributed tracing using Zipkin  
-• Circuit breaker using Resilience4j  
+• AWS deployment  
+• Kafka event-driven communication  --- inprogress
+• Distributed tracing using Zipkin  --- completed
+• Circuit breaker using Resilience4j  --- inprogress 
 
 ---
 
