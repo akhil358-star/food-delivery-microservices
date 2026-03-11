@@ -46,6 +46,13 @@ Key architectural components:
 | Notification Service | 8086 | Sends order notifications |
 
 ---
+| Service        | Port | Description                                                                   |
+| -------------- | ---- | ----------------------------------------------------------------------------- |
+| Kafka          | 9092 | Event streaming platform used for asynchronous communication between services |
+| Zookeeper      | 2181 | Manages Kafka brokers and cluster coordination                                |
+| Zipkin         | 9411 | Distributed tracing system used to track requests across microservices        |
+| Docker         | -    | Containerizes all services for consistent deployment                          |
+| Docker Compose | -    | Orchestrates all containers and runs the system with a single command         |
 
 # Technology Stack
 
